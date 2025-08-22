@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="add"></p>
+    <p id="sub"></p>
+    <p id="mul"></p>
+    <p id="div"></p>
+    <button onclick="fun1(2,3)">Calculate</button>
+
+    <script>
+        function fun1(a,b){
+            document.getElementById("add").innerHTML = a+b
+            document.getElementById("sub").innerHTML = a-b
+            document.getElementById("mul").innerHTML = a*b
+            document.getElementById("div").innerHTML = a/b
+        }
+    </script>
+
+
+</body>
+</html>
